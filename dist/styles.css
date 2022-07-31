@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.menu-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: solid 2px grey;
+    border-radius: 5px;
+}
+.pageTitle{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.contentText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.menuCategory{
+    display: flex;
+    flex-direction: column;
+}
+
+.menuCategory>h1{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.categoryItems{
+    display: flex;
+    gap: 30px;
+}
+
+.itemImage{
+    height: 200px;
+    width: auto;
+}
+
+.itemInfo{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contactItems{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contactLink{
+    padding-left: 10px;
+}
